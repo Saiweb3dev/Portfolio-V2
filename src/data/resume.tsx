@@ -4,9 +4,9 @@ import { HomeIcon,FolderIcon , } from "lucide-react";
 export const DATA = {
   name: "Sai Kumar",
   initials: "M",
-  url: "https://dillion.io",
+  url: "https://github.com/Saiwebdev2005",
   location: "India, Tamil Nadu",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  locationLink: "https://www.google.com/maps/place/tamilnadu",
   description:
     "Junior Web3 Developer. Passionate about empowering change through decentralized technology",
   summary:
@@ -97,7 +97,7 @@ export const DATA = {
   projects: [
     {
       title: "ZK-RWA-Tracker",
-      href: "https://chatcollect.com",
+      href: "https://github.com/Saiwebdev2005/ZK_RWA_Tracker",
       dates: "June 2024 - Aug 2024",
       active: true,
       description:
@@ -113,18 +113,18 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://chatcollect.com",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/Saiwebdev2005/ZK_RWA_Tracker",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/ZK_RWA.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+        "",
     },
     {
       title: "Ez-CryptoPay",
-      href: "https://llm.report",
+      href: "https://ezcryptopay.vercel.app/",
       dates: "May 2024 - June 2024",
       active: true,
       description:
@@ -140,21 +140,21 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://ezcryptopay.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/Saiwebdev2005/Ethereum_Transfer_NextJS",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/EzCrypto.png",
+      video: "",
     },
     {
       title: "DCEX",
-      href: "https://magicui.design",
+      href: "https://github.com/Saiwebdev2005/DecentraContent",
       dates: "April 2024 - May 2024",
       active: true,
       description:
@@ -168,23 +168,18 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Saiwebdev2005/DecentraContent",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      image: "/DCEX.png",
+      video: "",
     },
     
     {
       title: "Smart-Lease",
-      href: "https://automatic.chat",
+      href: "https://github.com/Saiwebdev2005/Smart-Lease",
       dates: "February 2024 - March 2024",
       active: true,
       description:
@@ -199,14 +194,14 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Website",
-          href: "https://automatic.chat",
-          icon: <Icons.globe className="size-3" />,
+          type: "Source",
+          href: "https://github.com/Saiwebdev2005/Smart-Lease",
+          icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/Smart-Lease.png",
       video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+        "",
     },
   ],
   hackathons: [
