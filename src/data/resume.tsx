@@ -10,18 +10,21 @@ export const DATA = {
   description:
     "Junior Web3 Developer. Passionate about empowering change through decentralized technology",
   summary:
-    "Almost done with my IT degree, and I've landed in the heart of Web3. The idea of making the web more open yet private? It's electrifying. I'm throwing myself into projects that don't just talk the talk but walk the walk.",
+    "Really into decentralized stuff and how it's spreading. Comes up with wild, creative fixes for tricky distributed systems issues. All about using cutting-edge tech to boost digital fairness and openness.",
   avatarUrl: "/itzme.jpg",
   skills: [
     "Solidity",
     "React",
     "Next.js",
     "Typescript",
+    "TailwindCSS",
+    "Golang",
+    "Gin",
     "Node.js",
     "Express.js",
     "ethers.js",
-    "Java",
-    "TailwindCSS"
+    "Hardhat",
+    "MongoDB"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -33,7 +36,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/Saiwebdev2005",
+        url: "https://github.com/Saiweb3dev",
         icon: Icons.github,
 
         navbar: true,
@@ -88,7 +91,7 @@ export const DATA = {
     {
       school: "KG College of Arts and Science",
       href: "https://www.kgcas.com/",
-      degree: "Bachelor's Degree of Information Technology (BCS)",
+      degree: "Bachelor's Degree of Information Technology",
       logoUrl: "/kgcas.jpeg",
       start: "2022",
       end: "Present",
@@ -96,8 +99,8 @@ export const DATA = {
   ],
   projects: [
     {
-      title: "ZK-RWA-Tracker",
-      href: "https://github.com/Saiwebdev2005/ZK_RWA_Tracker",
+      title: "ZeroKnowledge_RWA_Tracker",
+      href: "https://github.com/Saiweb3dev/ZeroKnowledge_RWA_Tracker",
       dates: "June 2024 - Aug 2024",
       active: true,
       description:
@@ -105,7 +108,7 @@ export const DATA = {
       technologies: [
         "Solidity",
         "Zokrates",
-        "ethers.js",
+        "IPFS",
         "Next.js",
         "Typescript",
         "Express.js",
@@ -114,7 +117,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/Saiwebdev2005/ZK_RWA_Tracker",
+          href: "https://github.com/Saiweb3dev/ZeroKnowledge_RWA_Tracker",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -123,33 +126,30 @@ export const DATA = {
         "",
     },
     {
-      title: "Ez-CryptoPay",
-      href: "https://ezcryptopay.vercel.app/",
-      dates: "May 2024 - June 2024",
+      title: "CrossChain_Token_Bridge",
+      href: "https://github.com/Saiweb3dev/Cross-Chain_Token_Bridge",
+      dates: "Aug 2024 - Oct 2024",
       active: true,
       description:
-        "EzCryptoPay: Versatile Ethereum payment platform. One-to-one and one-to-many transfers with automatic splitting. Generate and scan QR codes for easy wallet-to-wallet transactions.",
+        "CrossChain_Token_Bridge: A decentralized, secure cross-chain token bridge for seamless transfers of custom tokens between different blockchain networks.",
       technologies: [
         "Solidity",
-        "ethers.js",
+        "CCIP",
         "Next.js",
         "Typescript",
-        "Web3.js",
         "TailwindCSS",
+        "Golang",
+        "Gin",
+        "MongoDB"
       ],
       links: [
         {
-          type: "Website",
-          href: "https://ezcryptopay.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
           type: "Source",
-          href: "https://github.com/Saiwebdev2005/Ethereum_Transfer_NextJS",
+          href: "https://github.com/Saiweb3dev/Cross-Chain_Token_Bridge",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/EzCrypto.png",
+      image: "/CrossChain_TB.png",
       video: "",
     },
     {
@@ -178,28 +178,29 @@ export const DATA = {
     },
     
     {
-      title: "Smart-Lease",
-      href: "https://github.com/Saiwebdev2005/Smart-Lease",
-      dates: "February 2024 - March 2024",
+      title: "Kite_EEDU",
+      href: "https://github.com/Saiweb3dev/kite-educational-dapp",
+      dates: "July 2024 - Aug 2024",
       active: true,
       description:
-        "SmartLease: Blockchain rental platform. Automated payments, collateral, and instant access keys. Secure and efficient for all parties.",
+        "Kite_EEDU: Blockchain-based educational platform offering courses in classical languages, where students can progress through lessons and assessments to earn NFT certificates of mastery.",
       technologies: [
         "Solidity",
-        "ethers.js",
         "Next.js",
         "Typescript",
-        "react-moralis",
         "TailwindCSS",
+        "Express.js",
+        "ethers.js",
+        "IPFS"
       ],
       links: [
         {
           type: "Source",
-          href: "https://github.com/Saiwebdev2005/Smart-Lease",
+          href: "https://github.com/Saiweb3dev/kite-educational-dapp",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/Smart-Lease.png",
+      image: "/Kite_EEDU.png",
       video:
         "",
     },
